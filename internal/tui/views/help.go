@@ -1,4 +1,3 @@
-
 package views
 
 func HelpView() string {

@@ -457,8 +457,8 @@ func (a *App) layout() (w, h, pW1, pW2, boxInner int) {
 	if usable < 30 {
 		usable = 30
 	}
-	pW1 = usable / 3        // profiles: ~1/3
-	pW2 = usable - pW1      // secrets:  ~2/3
+	pW1 = usable / 3   // profiles: ~1/3
+	pW2 = usable - pW1 // secrets:  ~2/3
 
 	headerLines := 10
 	if w < 72 {
