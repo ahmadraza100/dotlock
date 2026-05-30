@@ -24,7 +24,8 @@ dotlock replaces your scattered plaintext `.env` files with a single encrypted v
 
 ![dotlock TUI]
 
-![dotlock Diff](screenshot-diff.png)
+![dotlock Diff](<img width="659" height="519" alt="Screenshot 2026-05-30 at 2 32 34 AM" src="https://github.com/user-attachments/assets/f642862a-5757-45d8-b3e2-207fbc96ea93" />
+)
 
 ---
 
@@ -89,9 +90,6 @@ dotlock get KEY                      # decrypt and print a value
 dotlock list                         # list all keys
 dotlock delete KEY                   # remove a secret
 dotlock diff dev staging             # compare two profiles
-dotlock export --format shell        # export KEY="value"
-dotlock export --format docker       # export KEY=value
-dotlock export --format github       # export via gh secret set
 dotlock profile create staging       # create a new profile
 dotlock profile list                 # list all profiles
 dotlock profile use staging          # switch active profile
