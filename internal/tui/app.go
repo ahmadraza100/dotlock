@@ -486,9 +486,9 @@ func (a *App) View() string {
 			lbl = paneLabelActive.Render(label)
 		}
 		inner := lbl + "\n" + listView
-		s := inactivePanelStyle.Copy().Width(pw)
+		s := inactivePanelStyle.Width(pw)
 		if idx == a.activePane {
-			s = activePanelStyle.Copy().Width(pw)
+			s = activePanelStyle.Width(pw)
 		}
 		return s.Render(inner)
 	}
@@ -567,7 +567,7 @@ func (a *App) controlsView(boxInner int) string {
 		strings.Join([]string{k("tab", "switch pane"), k("/", "search"), k("?", "help"), k("q", "quit")}, sep),
 	}, "\n")
 
-	return controlsBoxStyle.Copy().Width(boxInner).Render(
+	return controlsBoxStyle.Width(boxInner).Render(
 		controlsSectionStyle.Render("controls")+"\n"+rows,
 	) + "\n"
 }

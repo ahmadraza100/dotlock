@@ -25,13 +25,6 @@ var (
 	contextStyle = lipgloss.NewStyle().
 			Foreground(accentColor)
 
-	headerStyle = lipgloss.NewStyle().Bold(true).Foreground(brandColor)
-
-	headerBoxStyle = lipgloss.NewStyle().
-			Border(lipgloss.RoundedBorder()).
-			BorderForeground(brandColor).
-			Padding(0, 2)
-
 	// panels
 	activePanelStyle = lipgloss.NewStyle().
 				Border(lipgloss.RoundedBorder()).
@@ -87,10 +80,6 @@ var (
 				Foreground(accentColor).
 				Bold(true)
 
-	helpKeyStyle = lipgloss.NewStyle().
-			Foreground(brandColor).
-			Bold(true)
-
 	// status / status inline
 	statusKeyStyle = lipgloss.NewStyle().
 			Foreground(successColor).
@@ -108,11 +97,6 @@ var (
 	revealedValStyle = lipgloss.NewStyle().
 				Foreground(successColor).
 				Bold(true)
-
-	revealBoxStyle = lipgloss.NewStyle().
-			Border(lipgloss.RoundedBorder()).
-			BorderForeground(successColor).
-			Padding(0, 2)
 
 	// diff overlay
 	diffBoxStyle = lipgloss.NewStyle().
