@@ -22,10 +22,7 @@ dotlock replaces your scattered plaintext `.env` files with a single encrypted v
 
 ## Preview
 
-![dotlock TUI]
-
-![dotlock Diff](<img width="659" height="519" alt="Screenshot 2026-05-30 at 2 32 34 AM" src="https://github.com/user-attachments/assets/f642862a-5757-45d8-b3e2-207fbc96ea93" />
-)
+![dotlock TUI](https://github.com/user-attachments/assets/f642862a-5757-45d8-b3e2-207fbc96ea93)
 
 ---
 
