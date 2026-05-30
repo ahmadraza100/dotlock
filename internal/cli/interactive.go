@@ -78,7 +78,7 @@ func iDiffBanner(a, b string) {
 	fmt.Printf("\n  %s\n\n", iDiffBannerStyle.Render(inner))
 }
 
-var iKeyRegexp     = regexp.MustCompile(`^[A-Z_][A-Z0-9_]*$`)
+var iKeyRegexp = regexp.MustCompile(`^[A-Z_][A-Z0-9_]*$`)
 var iProfileRegexp = regexp.MustCompile(`^[a-z][a-z0-9-]*$`)
 
 func iVaultExists() bool {
